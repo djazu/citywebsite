@@ -1,0 +1,135 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 800px;
+}
+#hero-section{
+    background-image: url('https://setmont.sk/wp-content/uploads/2014/02/Rimavska-sobota-kostol.jpg');
+    background-size: cover;
+    height: max(45vw, 350px);    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+}
+#titleh1{
+    background: #1D3557;
+    color: #D9D9D9;
+    text-shadow: 0px 0px 1px #000000;
+    padding: 1% 2%;
+    border-radius: 15px;
+    margin-bottom:0px;
+    font-size: max(2.75vw, 22px);
+}
+#titleh2{
+    background: #457B9D;
+    color:#FFFFFF;
+    width: 55%;
+    border-radius: 15px;
+    padding:1%;
+    font-size: max(2vw, 18px);
+}
+
+/* 
+****************  
+HERO SECTION END
+**************** 
+*/
+
+
+/*
+******************
+ACTIVITIES SECTION
+******************
+*/
+#activities-section{
+  margin-bottom: 3vw;
+  background-color: #F1FAEE;
+  padding: 5vw ; 
+}
+
+#activities-title{
+    color: #1D3557;
+    font-size: max(2.5vw, 18px);
+    
+}
+#activities{
+   display: flex;
+   justify-content: space-around; 
+   padding-top: 70px;
+}
+.activities{
+    width: 30%;
+}
+
+.activities img {  
+    width: max(50%, 100px);
+    border-radius: 50%;
+    margin-bottom: 1.25vw;
+}
+
+.activities h4{
+    font-size: max(1.7vw, 15px);
+}
+.activities p{
+    font-size: max(1.7vw,15px);
+}
+
+/*
+**************
+ACTIVITIES END
+**************
+*/
+
+
+/*
+*************
+GUIDE SECTION
+*************
+*/
+#guide-section-container{
+    width: 50%;
+    margin: 7vw auto;
+    padding: 2vw;
+    background-color: #A8DADC; 
+    display: flex;
+    border-radius: 15px;
+    box-shadow: 0 5px #1D3557;
+}
+
+#guide-section-container img{
+    width: 50%;
+    border-radius: 15px;
+}
+
+#guide-description-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     
+}
+
+#guide-section-container img, #guide-description-container{
+    padding: 1vw;
+}
+#guide-section-container h3{
+    font-size: max(3vw, 22px)
+}
+#guide-section-container p{
+    font-size: max(2vw, 16px)
+}
+#guide-section-container h4{
+font-size: max(1.7vw, 15px);
+}
